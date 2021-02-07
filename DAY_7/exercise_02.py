@@ -23,10 +23,7 @@ guess = input("Guess a letter: ").lower()
 i = 0
 for letter in chosen_word:
     if letter == guess:
-        print("Right")
         display[i] = guess
-    else:
-        print("Wrong")
     i += 1
 
 #TODO-3: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
