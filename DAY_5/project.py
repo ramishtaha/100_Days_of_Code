@@ -33,5 +33,5 @@ for i in range(0, pass_len):
     if char == 2 and password_numbers <= nr_numbers:
         password += numbers[random.randint(0, 9)]
         password_numbers += 1
-    
+
 print(password)
