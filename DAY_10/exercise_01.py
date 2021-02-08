@@ -14,8 +14,7 @@ def days_in_month(year, month):
     month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]  
     if is_leap(year) and month == 2:
         return month_days[month - 1] + 1
-    else:
-        return month_days[month - 1]
+    return month_days[month - 1]
   
   
 #🚨 Do NOT change any of the code below 
