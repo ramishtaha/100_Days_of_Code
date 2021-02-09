@@ -16,6 +16,7 @@ def print_choice(c):
     print(f"Compare A: {c['name']},  {c['description']}, from {c['country']}.")
 
 score = 0
+cls()
 print(logo)
 while True:
     print_choice(a)
