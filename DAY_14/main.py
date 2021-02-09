@@ -24,7 +24,7 @@ while True:
     print_choice(b)
 
     choice = input("Who has more followers? Type 'A' or 'B': ")
-    print(a['follower_count'], b['follower_count'])
+    # print(a['follower_count'], b['follower_count'])
     if choice == 'A':
         if not a['follower_count'] > b['follower_count']:
             break
