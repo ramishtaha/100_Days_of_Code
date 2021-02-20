@@ -38,4 +38,4 @@ while True:
     a = b
     b = random.choice(data)
 
-print(f"Sorry, That's wrong. Final Score{score}")
+print(f"Sorry, That's wrong. Final Score: {score}")
